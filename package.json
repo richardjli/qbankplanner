@@ -46,6 +46,7 @@
     "eslint": "^1.10.3",
     "eslint-plugin-react": "^3.6.2",
     "express": "^4.13.4",
+    "file-loader": "^0.8.5",
     "less-loader": "^2.2.2",
     "lodash.flow": "^3.2.1",
     "moment": "^2.12.0",
@@ -58,6 +59,7 @@
     "react-redux": "^4.4.1",
     "react-widgets": "^3.2.0",
     "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
     "webpack": "^1.12.14"
   }
 }
