@@ -10,12 +10,12 @@ export default function configureStore(initialState) {
     window.devToolsExtension ? window.devToolsExtension() : f => f
   ));
 
-  if (module.hot) {
+  /* if (module.hot) {
     // Enable Webpack hot module replacement for reducers
     module.hot.accept('./reducers/reducers', () => {
       const nextReducer = require('./reducers/reducers');
       store.replaceReducer(nextReducer);
-    });
+    });*/
   }
 
   return store;
