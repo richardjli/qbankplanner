@@ -1,0 +1,19 @@
+body {
+    padding-top: 52px;
+}
+
+.anchor {
+    border-top: 52px;
+}
+
+[name]:before {
+  display: block;
+  content: " ";
+  margin-top: -52px;
+  height: 52px;
+  visibility: hidden;
+}
+
+h3 {
+    color: steelblue;
+}
