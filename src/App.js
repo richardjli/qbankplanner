@@ -10,7 +10,6 @@ import CalendarContainer from './containers/CalendarContainer'
 import SortableContainer from './containers/SortableContainer'
 import './extra.css'
 import 'react-widgets/lib/less/react-widgets.less';
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 export default class App extends Component {
   render() {

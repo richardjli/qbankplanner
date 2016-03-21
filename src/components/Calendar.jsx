@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import EventCalendar from 'react-event-calendar';
 import 'react-event-calendar/dist/react-event-calendar.css'
 import 'react-event-calendar/less/react-event-calendar.less'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import moment from 'moment';
 import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
