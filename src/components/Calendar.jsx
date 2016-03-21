@@ -42,7 +42,7 @@ const createSchedule = (questionsPerDay, topics) =>
       questionsLeftInTopic = 0
       let endDate = dayCounter
 
-      events.push({'title':topic.name, 'start':moment().add(startDate, 'day').format('YYYY-MM-DD'), 'end':moment().add(endDate, 'day').format('YYYY-MM-DD'), 'description':(topic.questionCount + ' questions')})
+      events.push({'title':topic.name, 'start':moment().add(startDate, 'day').format('YYYY-MM-DD'), 'end':moment().add(endDate, 'day').format('YYYY-MM-DD'), 'description':(topic.questionCount + ' questions over ' + (endDate - startDate + 1) + ' days')})
 
   })
   return events
