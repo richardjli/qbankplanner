@@ -9,7 +9,7 @@ import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 import Button from 'react-bootstrap/lib/Button';
 import ButtonToolbar from 'react-bootstrap/lib/ButtonToolbar';
-import Popover from 'react-bootstrap/lib/PopOver';
+import Popover from 'react-bootstrap/lib/Popover';
 import Overlay from 'react-bootstrap/lib/Overlay';
 
 const maxQuestionsPerDay = (minPerDay, reviewTime, minPerQuestion) => ((minPerDay - reviewTime) / minPerQuestion)
